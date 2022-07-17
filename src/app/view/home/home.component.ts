@@ -15,7 +15,9 @@ export class HomeComponent implements OnInit {
     for (var i = 0; i <= this.passwordLength; i++) {
       var randomNumber = Math.floor(Math.random() * this.chars.length);
       this.password += this.chars.substring(randomNumber, randomNumber +1);
-      
+    }
+    if (this.password.length > 13) {
+      this.password = "";
     }
   }
 
