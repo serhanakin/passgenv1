@@ -18,6 +18,7 @@
     }
     .input {
         p {
+            border-radius: 75px;
             border: 1px solid black;
             outline: none;
             padding: 10px;
@@ -30,8 +31,12 @@
         button {
             cursor: pointer;
             height: 40px;
-            width: 150px;
+            width: 160px;
             border: none;
+            border-radius: 75px;
+            letter-spacing: 1px;
+            color: white;
+            background-color: rgb(255, 132, 0);
         }
     }
 }
