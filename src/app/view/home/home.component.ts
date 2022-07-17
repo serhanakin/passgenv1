@@ -19,6 +19,10 @@ export class HomeComponent implements OnInit {
     }
   }
 
+  clear() {
+    this.password = "";
+  }
+
   constructor() { }
 
   ngOnInit(): void {

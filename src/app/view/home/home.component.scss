@@ -28,6 +28,10 @@
         }
     }
     .btn {
+        width: 18vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
         button {
             cursor: pointer;
             height: 40px;
