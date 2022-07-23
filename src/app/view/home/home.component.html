@@ -1,18 +1,21 @@
 <section class="container">
 
     <div class="img">
-        <img src="../../../assets/img/lock.png" alt="">
+        <!-- <img src="../../../assets/img/lock.png" alt=""> -->
+        <h1>Random Password Generator</h1>
     </div>
 
-    <div class="input">
-        <p>
-            {{ password }}
-        </p>
+    <div class="main">
+        <div class="input">
+            <p>
+                {{ password }}
+            </p>
+        </div>
+    
+        <div class="btn">
+            <button #gen (click)="generate()">Generate</button>
+            <!-- <button (click)="clear()">Clear</button> -->
+        </div>
     </div>
-
-    <div class="btn">
-        <button #gen (click)="generate()">Generate Password</button>
-        <button (click)="clear()">Clear</button>
-    </div>
-
+    
 </section>
